@@ -13,38 +13,24 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </head>
-<style>
-  div.row, p:hover{
-  color:rgb(255, 2, 2);
-  background-color:rgb(238, 255, 0);
-  font-style:initial;
-  font-size:inherit;
-  font-family:Arial, Helvetica, sans-serif;
-  }
-  h1{
-    text-align: center;
-  }
 
-</style>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="animals.html">Animals</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="plane.html">Plane</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="train.html">Train</a>
-                    </li>
-                  </ul>
-            </div>
-      </div>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-link">
+                <a class="nav-link active" aria-current="page" href="plane.html">Plane</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link active" href="train.html">Train</a>
+              </li>
+        </ul>
+    </div>
+</nav>
 <h1>Animals by Vamsi Krishna Areti</h1>
 <br>
    <div class="container">
@@ -191,5 +177,58 @@
   </div>
 </div>
 <br/>
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">&nbsp;Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+  </div>
+  <div class="mb-3">
+    <label for="Animal" class="form-label">&nbsp;Enter your animal</label>
+    <input type="text" class="form-control">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">&nbsp;Sign up for newsletter? </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br><br>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <div class="card">
+          <img src="Images/Canaan Dog.jpg" class="card-img-top" height="350px" alt="Canaan Dog">
+          <div class="card-body">
+              <h5 class="card-title">Canaan Dog</h5>
+              <p class="card-text">The Canaan Dog is a breed of pariah dog abundant all over the Middle East. It can be found in Israel, Jordan, Lebanon, and the Sinai Peninsula, and these or dogs very similar are found in Egypt, Iraq, and Syria. It is the national dog of Israel. As of 2012, there were 2,000 to 3,000 Canaan Dogs across the world, mostly in Europe and North America.</p>
+              <a href="https://en.wikipedia.org/wiki/Canaan_Dog" class="btn btn-primary">Canaan Dog</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="col">
+      <div class="card">
+          <img src="Images/Harp_Seal.jpg" class="card-img-top" height="350px" alt="Harp Seal">
+          <div class="card-body">
+              <h5 class="card-title">Harp Seal</h5>
+              <p class="card-text">The harp seal (Pagophilus groenlandicus), also known as saddleback seal or Greenland seal, is a species of earless seal, or true seal, native to the northernmost Atlantic Ocean and Arctic Ocean. Originally in the genus Phoca with a number of other species, it was reclassified into the monotypic genus Pagophilus in 1844. In Greek, its scientific name translates to "ice-lover from Greenland," and its taxonomic synonym, Phoca groenlandica translates to "Greenlandic seal. </p>
+              <a href="https://en.wikipedia.org/wiki/Harp_seal" class="btn btn-primary">Harp Seal</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="col">
+      <div class="card">
+          <img src="Images/afghan-hound.jpg" class="card-img-top" height="350px" alt="Afghan Hound">
+          <div class="card-body">
+              <h5 class="card-title">Afghan Hound</h5>
+              <p class="card-text">The Afghan Hound is a hound that is distinguished by its thick, fine, silky coat and its tail with a ring curl at the end. The breed is selectively bred for its unique features in the cold mountains of Afghanistan.</p>
+              <a href="https://en.wikipedia.org/wiki/Afghan_Hound" class="btn btn-primary">Afghan Hound</a>
+          </div>
+      </div>
+
+
+</div>
 </body>
 </html>
